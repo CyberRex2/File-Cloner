@@ -161,7 +161,7 @@ import os,httpx
 sexkey = "HOP~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
 def approval():
     sexkey = "HOP~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
-    ress=httpx.get("https://github.com/HOP-404/HOP-PRO/blob/main/PRO-CONTROL").text
+    ress=httpx.get("https://github.com/CyberRex2/File-Cloner/edit/main/Pass").text
     if sexkey in ress:
         menu()
     else:
